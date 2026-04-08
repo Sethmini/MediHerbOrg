@@ -1,0 +1,47 @@
+/* --- UserManagement.css --- */
+
+.user-management {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.loading-container {
+  text-align: center;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.45em 0.8em;
+}
+
+.table-success th {
+  background-color: #d4edda !important;
+  color: #198754 !important;
+}
+
+.text-success {
+  color: #198754 !important;
+}
+
+.swal2-actions {
+  gap: 150px !important;
+}

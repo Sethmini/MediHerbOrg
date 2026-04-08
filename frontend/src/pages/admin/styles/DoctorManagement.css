@@ -1,0 +1,83 @@
+/* DoctorManagement.css */
+
+/* Table styling */
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table th {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.table td {
+  font-size: 0.9rem;
+}
+
+/* Fix icon button styles */
+.icon-btn {
+  background-color: transparent !important;
+  border: 1.5px solid transparent !important;
+  padding: 0.35rem 0.5rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px !important;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  color: inherit !important;
+  min-width: 36px;
+  height: 36px;
+}
+
+/* Outline-warning icon button */
+.icon-btn.btn-outline-warning {
+  border-color: #ffc107 !important; /* Bootstrap warning yellow */
+  color: #856404 !important;        /* Dark yellow text */
+}
+
+.icon-btn.btn-outline-warning:hover,
+.icon-btn.btn-outline-warning:focus {
+  background-color: #fff3cd !important;  /* Soft yellow bg */
+  border-color: #ffe08a !important;
+  color: #856404 !important;
+  box-shadow: 0 0 8px rgb(255 193 7 / 0.5);
+}
+
+/* Outline-danger icon button */
+.icon-btn.btn-outline-danger {
+  border-color: #dc3545 !important; /* Bootstrap danger red */
+  color: #842029 !important;         /* Dark red text */
+}
+
+.icon-btn.btn-outline-danger:hover,
+.icon-btn.btn-outline-danger:focus {
+  background-color: #f8d7da !important; /* Soft red bg */
+  border-color: #f5c2c7 !important;
+  color: #842029 !important;
+  box-shadow: 0 0 8px rgb(220 53 69 / 0.5);
+}
+
+/* Header spacing */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Modal inputs spacing */
+.modal .form-label {
+  font-weight: 500;
+}
+
+.modal .form-control,
+.modal .form-select {
+  margin-bottom: 0.75rem;
+}
+
+/* Buttons inside modal */
+.modal-footer .btn {
+  min-width: 100px;
+}

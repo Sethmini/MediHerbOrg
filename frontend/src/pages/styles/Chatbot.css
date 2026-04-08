@@ -1,0 +1,8 @@
+.chatbot-body {
+  background-color: #f8f9fa;
+}
+
+.chat-message {
+  max-width: 70%;
+  word-wrap: break-word;
+}
